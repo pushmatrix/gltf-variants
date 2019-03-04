@@ -37,6 +37,7 @@ function loadModel(path) {
 	}
 	
 	optionsFolder = gui.addFolder('Options');
+	optionsFolder.open();
 	if (currentModel) {
 		scene.remove(currentModel);
 	}
